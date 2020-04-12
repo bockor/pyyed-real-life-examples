@@ -1,0 +1,273 @@
+<?xml version="1.0" ?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:java="http://www.yworks.com/xml/yfiles-common/1.0/java" xmlns:sys="http://www.yworks.com/xml/yfiles-common/markup/primitives/2.0" xmlns:x="http://www.yworks.com/xml/yfiles-common/markup/2.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:y="http://www.yworks.com/xml/graphml" xmlns:yed="http://www.yworks.com/xml/yed/3" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://www.yworks.com/xml/schema/graphml/1.1/ygraphml.xsd">
+	<key for="node" id="data_node" yfiles.type="nodegraphics"/>
+	<key for="edge" id="data_edge" yfiles.type="edgegraphics"/>
+	<graph edgedefault="directed" id="G">
+		<node id="MONITOR_EXT">
+			<data key="data_node">
+				<y:ShapeNode>
+					<y:Fill color="#3311EE" transparent="false"/>
+					<y:BorderStyle color="#000000" type="line" width="1.0"/>
+					<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">MONITOR_EXT</y:NodeLabel>
+					<y:Shape type="octagon"/>
+				</y:ShapeNode>
+			</data>
+		</node>
+		<node id="LOC1" yfiles.foldertype="group">
+			<data key="data_node">
+				<y:ProxyAutoBoundsNode>
+					<y:Realizers active="0">
+						<y:GroupNode>
+							<y:Fill color="#FFCC00" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">LOC1</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+							<y:State closed="false"/>
+						</y:GroupNode>
+					</y:Realizers>
+				</y:ProxyAutoBoundsNode>
+			</data>
+			<graph edgedefault="directed" id="LOC1">
+				<node id="R1">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#FF0000" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">R1</y:NodeLabel>
+							<y:Shape type="ellipse"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="R2">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#FF0000" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">R2</y:NodeLabel>
+							<y:Shape type="ellipse"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="MONITOR_INT">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#3311EE" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">MONITOR_INT</y:NodeLabel>
+							<y:Shape type="octagon"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="SERVICES_LOC1" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">SERVICES_LOC1</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="SERVICES_LOC1"/>
+				</node>
+			</graph>
+		</node>
+		<node id="SERVICES_LOC1" yfiles.foldertype="group">
+			<data key="data_node">
+				<y:ProxyAutoBoundsNode>
+					<y:Realizers active="0">
+						<y:GroupNode>
+							<y:Fill color="#FFCC00" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">SERVICES_LOC1</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+							<y:State closed="false"/>
+						</y:GroupNode>
+					</y:Realizers>
+				</y:ProxyAutoBoundsNode>
+			</data>
+			<graph edgedefault="directed" id="SERVICES_LOC1">
+				<node id="s1">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#8800EE" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">SQL</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="m1">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#8800EE" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">MAIL</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="w1">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#8800EE" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">WWW</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+			</graph>
+		</node>
+		<node id="LOC2" yfiles.foldertype="group">
+			<data key="data_node">
+				<y:ProxyAutoBoundsNode>
+					<y:Realizers active="0">
+						<y:GroupNode>
+							<y:Fill color="#FFCC00" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">LOC2</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+							<y:State closed="false"/>
+						</y:GroupNode>
+					</y:Realizers>
+				</y:ProxyAutoBoundsNode>
+			</data>
+			<graph edgedefault="directed" id="LOC2">
+				<node id="R3">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#FF0000" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">R3</y:NodeLabel>
+							<y:Shape type="ellipse"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="SERVICES_LOC2" yfiles.foldertype="group">
+					<data key="data_node">
+						<y:ProxyAutoBoundsNode>
+							<y:Realizers active="0">
+								<y:GroupNode>
+									<y:Fill color="#FFCC00" transparent="false"/>
+									<y:BorderStyle color="#000000" type="line" width="1.0"/>
+									<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">SERVICES_LOC2</y:NodeLabel>
+									<y:Shape type="rectangle"/>
+									<y:State closed="false"/>
+								</y:GroupNode>
+							</y:Realizers>
+						</y:ProxyAutoBoundsNode>
+					</data>
+					<graph edgedefault="directed" id="SERVICES_LOC2"/>
+				</node>
+			</graph>
+		</node>
+		<node id="SERVICES_LOC2" yfiles.foldertype="group">
+			<data key="data_node">
+				<y:ProxyAutoBoundsNode>
+					<y:Realizers active="0">
+						<y:GroupNode>
+							<y:Fill color="#FFCC00" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" modelName="internal" modelPosition="t" underlinedText="false">SERVICES_LOC2</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+							<y:State closed="false"/>
+						</y:GroupNode>
+					</y:Realizers>
+				</y:ProxyAutoBoundsNode>
+			</data>
+			<graph edgedefault="directed" id="SERVICES_LOC2">
+				<node id="w2">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#8800EE" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">WWW</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="w3">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#8800EE" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">WWW</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+				<node id="w4">
+					<data key="data_node">
+						<y:ShapeNode>
+							<y:Fill color="#8800EE" transparent="false"/>
+							<y:BorderStyle color="#000000" type="line" width="1.0"/>
+							<y:NodeLabel alignment="center" fontFamily="Dialog" fontSize="12" fontStyle="plain" underlinedText="false">WWW</y:NodeLabel>
+							<y:Shape type="rectangle"/>
+						</y:ShapeNode>
+					</data>
+				</node>
+			</graph>
+		</node>
+		<edge id="1" source="R1" target="R2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="2" source="R2" target="R3">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="line" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="3" source="R3" target="SERVICES_LOC2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="4" source="R1" target="SERVICES_LOC1">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="dashed" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="5" source="MONITOR_EXT" target="SERVICES_LOC1">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="dotted" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="6" source="MONITOR_EXT" target="SERVICES_LOC2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="dotted" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="7" source="MONITOR_INT" target="SERVICES_LOC1">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#000000" type="dotted" width="1.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+	</graph>
+</graphml>
