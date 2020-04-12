@@ -8,4 +8,6 @@ The [yEd Graph Editor](https://www.yworks.com/products/yed) supports the [GraphM
 This is an open standard based on XML, and is supported by Python libraries such as [NetworkX](https://networkx.github.io/).
 However, the details of formatting (rather than network topology) are handled by yEd specific extensions to the standard, which are not supported by other libraries.
  
-[pyyed](https://github.com/jamesscottbrown/pyyed) is a sublime library to create graphml formatted diagrams .  However, I feel that a couple of real life examples are missing in the repo to bring the user on speed.  That's why I have created this repo here.  
+[pyyed](https://github.com/jamesscottbrown/pyyed) is a sublime library to create graphml formatted diagrams .  However, I feel that a couple of real life examples are missing in the repo to bring the user on speed.  That's why I have created this repo here.
+
+Suggestions and remarks are welcome.  Don't hesitate to contribute if you can't resist.  
