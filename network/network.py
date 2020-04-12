@@ -1,26 +1,32 @@
 import pyyed
 
+# create instance of the Graph class
 g = pyyed.Graph()
 
+# Create groupnode LOC1 add nodes R1 and R2
 loc1 = g.add_group('LOC1')
 loc1.add_node('R1', shape='ellipse')
 loc1.add_node('R2', shape='ellipse')
 
-
+# Create groupnode LOC2 add nodes R3
 loc2 = g.add_group('LOC2')
 loc2.add_node('R3', shape = 'ellipse')
 
+# Create groupnode SERVICES and nodes DNS,MAIL,WWW
 services = g.add_group('SERVICES')
 services.add_node('DNS', shape_fill="#8800EE")
 services.add_node('MAIL', shape_fill="#8800EE")
 services.add_node('WWW', shape_fill="#8800EE")
+
+# Move groupnode SERVICES into groupnode LOC2
 loc2.add_group('SERVICES')
 
-
+# Make the connections (edges)
 g.add_edge('R1','R2', arrowhead="none")
 g.add_edge('R2','R3', arrowhead="none")
 g.add_edge('R3','SERVICES', arrowhead="none", line_type="dashed")
 
+# Write to file in a formatted presentation
 g.write_graph('network.graphml', pretty_print=True)
 
 '''
