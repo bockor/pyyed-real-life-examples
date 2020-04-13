@@ -269,5 +269,21 @@
 				</y:PolyLineEdge>
 			</data>
 		</edge>
+		<edge id="8" source="w2" target="w3">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#FF0000" type="line" width="2.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
+		<edge id="9" source="w1" target="w2">
+			<data key="data_edge">
+				<y:PolyLineEdge>
+					<y:Arrows source="none" target="none"/>
+					<y:LineStyle color="#FF0000" type="line" width="2.0"/>
+				</y:PolyLineEdge>
+			</data>
+		</edge>
 	</graph>
 </graphml>

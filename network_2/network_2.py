@@ -40,4 +40,7 @@ g.add_edge('MONITOR_EXT','SERVICES_LOC2', arrowhead="none", line_type="dotted")
 
 g.add_edge('MONITOR_INT','SERVICES_LOC1', arrowhead="none", line_type="dotted")
 
+g.add_edge('w2','w3', arrowhead="none", color="#FF0000", line_type="line", width="2.0")
+g.add_edge('w1','w2', arrowhead="none", color="#FF0000", line_type="line", width="2.0")
+
 g.write_graph('network2.graphml', pretty_print=True)
