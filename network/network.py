@@ -24,6 +24,7 @@ loc2.add_group('SERVICES')
 # Make the connections (edges)
 g.add_edge('R1','R2', arrowhead="none")
 g.add_edge('R2','R3', arrowhead="none")
+# The node needs to be specified first !!!!
 g.add_edge('R3','SERVICES', arrowhead="none", line_type="dashed")
 
 # Write to file in a formatted presentation
